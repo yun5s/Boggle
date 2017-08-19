@@ -53,8 +53,8 @@ public class Boggle3 {
         return result;
     }
 
-/* For out put tests...
- * public static void main(String [] args){
+// For out put tests...
+  public static void main(String [] args){
 
         char[][] board = {
             {'I','L','A','W'},
@@ -63,13 +63,13 @@ public class Boggle3 {
             {'A','S','R','L'}
             };
 
-            Scanner scanner = new Scanner (System.in);
-            System.out.print("Enter a word ");  
-            String words = scanner.next();
+           // Scanner scanner = new Scanner (System.in);
 
+            String words = "SEFES";
+            System.out.println("The word '"+words+"' is :");
             boolean validd = valid(board, words);
-            System.out.println(validd ? "YES" : "NO");
+            System.out.println(validd ? "VALID" : "NOT VALID");
 
 
-    }*/
+    }
 }
